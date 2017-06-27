@@ -1,0 +1,131 @@
+html, body, div, span, h1, h2, h3, h4, p, ul, ol, li {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: roboto;
+  background: #eee;
+}
+
+#container {
+  width: 600px;
+  margin: 30px 0px;
+  padding: 50px;
+  background: #fff;
+  opacity: 0.8;
+  box-shadow: 1px 1px 4px #ccc;
+}
+
+#header {
+  background: #eee;
+  box-shadow: inset 1px 1px 3px #ccc;
+}
+
+h1 {
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #222;
+}
+
+h2 {
+  color: #222;
+  padding: 40px 0px 5px 0px;
+  font-size: 30px;
+}
+
+#time {
+  color: #222;
+  font-size: 25px;
+  padding: 5px 0 40px 0;
+}
+
+#colorListBox {
+  text-align: center;
+  display: flex;
+  margin: 20px 30px 10px 30px;;
+}
+
+.colorList {
+  padding: 10px;
+  flex-grow: 1;
+  margin: 5px;
+}
+
+.colorList p {
+  color: #fff;
+}
+
+#one {background: #2f8bbe;}
+#two {background: #E80000;}
+#three {background: #FEF200;}
+#four {background: #FF6700;}
+#five {background: #0EAD69;}
+#six {background: #EE4266;}
+#seven {background: #540D6E;}
+#eight {background: #A87332;}
+
+#actionBox {
+  text-align: center;
+}
+
+#actionHeader {
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #222;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+#actionBtn {
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  font-weight: bolder;
+  outline: none;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+#actionBtn:hover {
+  background: #555;
+}
+
+#displayBox {
+  text-align: center;
+}
+
+#display {
+  width: 200px;
+  height: 100px;
+  margin: 30px auto;
+  display: flex;
+  transition: background 0.15s ease-in-out;
+  -webkit-transition: background 0.15s ease-in-out;
+  -moz-transition: background 0.15s ease-in-out;
+}
+
+#display p {
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  margin: auto;
+}
+
+input {
+  width: 200px;
+  height: 40px;
+  margin: 10px auto;
+  display: block;
+  text-align: center;
+  outline: none;
+  font-size: 17px;
+}

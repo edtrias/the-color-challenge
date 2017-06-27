@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+
+  <div id="container">
+    <div id="header">
+      <h1>The Color Challenge</h1>
+    </div>
+
+    <div id="colorListBox">
+      <div id="one" class="colorList"><p>blue</p></div>
+      <div id="two" class="colorList"><p>red</p></div>
+      <div id="three" class="colorList"><p>yellow</p></div>
+      <div id="four" class="colorList"><p>orange</p></div>
+      <div id="five" class="colorList"><p>green</p></div>
+      <div id="six" class="colorList"><p>pink</p></div>
+      <div id="seven" class="colorList"><p>purple</p></div>
+      <div id="eight" class="colorList"><p>brown</p></div>
+    </div>
+
+    <div id="displayBox">
+      <div id="display">
+        <p></p>
+      </div>
+      <input type="text" id="colorInput" placeholder="Type Color" />
+      <h2 id="finishText">Easy, right?</h2>
+      <h4 id="time">It took you <span></span> seconds  <span id="reaction"></span></h4>
+    </div>
+
+    <div id="actionBox">
+      <h3 id="actionHeader">Press <strong>START</strong>, write the background color <strong>as fast as you can</strong>, and be careful with the color names.</h3>
+      <button id="actionBtn">Start</button>
+    </div>
+  </div>
+
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="logic.js">
+
+  </script>
+</body>
+</html>
